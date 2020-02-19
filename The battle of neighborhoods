@@ -1,0 +1,41 @@
+Capstone Project - The Battle of the Neighborhoods 
+Applied Data Science Capstone by IBM/Coursera
+Introduction: Business Problem
+In this project, we will try to recommend which type of business, a client should open based on the top common venues of each neighborhood in Poblado, Medellín. This report will be targeted to stakeholders interested in opening a new business in Poblado, Medellín.
+
+Since there are many types of business in this borough, we will analyze each neighborhood and see the top and the least common venues within a radius of 500 meters and try to detect locations that are not already crowded with each type of business.
+
+We will use data science to generate a few most promising neighborhoods based on these criteria. The advantages of each area will then be clearly expressed so that the best possible final location can be chosen by stakeholders.
+
+Data
+Based on our business problem, the factors that will influence our decision are:
+
+Number of existing business
+Type of business chosen
+The above data will be extracted from different sources We will use:
+
+Google Geocoder API to find the latitude and longitude of each neighborhood
+Foursquare API to find the venues within 500 meters of each neighborhood All of this data will be used to segmenting and clustering Poblado borough, we will support this data with folium and matplotlib visualizations, also using Elbow Method to find the best K for our KMeans Clustering Method
+
+Intro
+The problem
+With a population exceeding 150 Million, Shanghai is one of the largest cities of China. 
+As there are many citizens in Shanghai, there are some hospitals that can be built to cover a number of areas. Some areas are fully covered while some areas are not covered at all. The number of hospitals to be built should cover areas with the lowest amount of healthcare facilities in their vicinity.
+
+Solution
+In order to cater the current problem, I plan to create a map that would display the neighborhoods and the number of hospitals near them. These hospitals will be judged on the number of areas they cater, which will in turn identify the areas to which hospitals are very far. These identified points will then be used to analyze and determine the optimal points for building a new hospital.
+
+Data
+Collection Sources
+Data will be collected from the following sources:
+
+List of towns in Shanghai
+Geocode information from Geopy
+Hospital Data in Shanghai from Foursquare
+
+Data Type
+The data collected includes:
+
+list of neighborhoods in Shanghai
+list of hospitals in Shanghai with their neighborhoods
+Geo location data of hospitals and neighborhoods
